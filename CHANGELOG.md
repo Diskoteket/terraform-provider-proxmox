@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.63.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.62.0...v0.63.0) (2024-08-14)
+
+
+### Features
+
+* **file:** add support to set the file mode ([#1478](https://github.com/bpg/terraform-provider-proxmox/issues/1478)) ([cc9d0e7](https://github.com/bpg/terraform-provider-proxmox/commit/cc9d0e713190d736861883f97058c1ec7f0a179d))
+
+
+### Bug Fixes
+
+* **firewall:** remove limit for number of CIRDs in `ipset` ([#1487](https://github.com/bpg/terraform-provider-proxmox/issues/1487)) ([55bfe14](https://github.com/bpg/terraform-provider-proxmox/commit/55bfe14ce18a432849e544360561d7b9091ac4d8))
+
+
+### Miscellaneous
+
+* **ci:** update jetbrains/qodana-action action (v2024.1.8 → v2024.1.9) ([#1484](https://github.com/bpg/terraform-provider-proxmox/issues/1484)) ([dd6d5ec](https://github.com/bpg/terraform-provider-proxmox/commit/dd6d5ec88ffefc41cf68aeac6260915a05450463))
+* **code:** align resource/datasource names in the fwprovider code ([#1488](https://github.com/bpg/terraform-provider-proxmox/issues/1488)) ([8f82d1a](https://github.com/bpg/terraform-provider-proxmox/commit/8f82d1a3848571f09aea400960b252d4b6c39fb1))
+* **deps:** update golang.org/x/exp digest (8a7402a → 0cdaa3a) ([#1483](https://github.com/bpg/terraform-provider-proxmox/issues/1483)) ([e566c4e](https://github.com/bpg/terraform-provider-proxmox/commit/e566c4e35e6680c2d24cbc42fb78aa1e753f1dd1))
+* **deps:** update module github.com/hashicorp/terraform-plugin-testing (v1.9.0 → v1.10.0) ([#1485](https://github.com/bpg/terraform-provider-proxmox/issues/1485)) ([767f680](https://github.com/bpg/terraform-provider-proxmox/commit/767f680cc3428484a6c5fe15c22c6ab7acf1dce8))
+* **devcontainer:** configure provider override in post attach command ([#1481](https://github.com/bpg/terraform-provider-proxmox/issues/1481)) ([daaedf2](https://github.com/bpg/terraform-provider-proxmox/commit/daaedf2d99ee56a1873aeb6da4af94eb06fc7d5f))
+
 ## [0.62.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.61.1...v0.62.0) (2024-08-08)
 
 
